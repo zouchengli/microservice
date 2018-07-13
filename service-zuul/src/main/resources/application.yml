@@ -1,0 +1,10 @@
+eureka:
+  client:
+    eureka-server-u-r-l-context: http://localhost:8761/eureka/
+server:
+  port: 8767
+spring:
+  application:
+    name: service-zuul
+zuul:
+  routes:
