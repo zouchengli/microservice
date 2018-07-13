@@ -1,4 +1,4 @@
-package site.clzblog.springcloud.eurekaclient;
+package site.clzblog.springcloud.eurekaclient.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,7 +12,7 @@ public class HiController {
 
     @RequestMapping("hi")
     public String hi(@RequestParam String name) {
-        return "hi" + name + ",port:" + port;
+        return "hi " + name + ",i am from port:" + port;
     }
 
 }
