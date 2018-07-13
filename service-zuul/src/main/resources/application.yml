@@ -8,3 +8,9 @@ spring:
     name: service-zuul
 zuul:
   routes:
+    api-a:
+      path: /api-a/**
+      url: http://localhost:8764
+    api-b:
+      path: /api-b/**
+      url: http://localhost:8765
