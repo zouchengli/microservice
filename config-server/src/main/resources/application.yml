@@ -10,5 +10,10 @@ spring:
           default-label: master
           username:
           password:
+          basedir: config-repo/config-repo
+        bootstrap: true
 server:
   port: 8888
+eureka:
+  client:
+    eureka-server-u-r-l-context: http://localhost:8761/eureka/
