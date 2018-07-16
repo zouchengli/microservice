@@ -5,6 +5,10 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/zouchengli/microservice-repository
+          search-paths: repo
+          default-label: master
+          username:
+          password:
 server:
   port: 8888
